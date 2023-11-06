@@ -1,3 +1,6 @@
+import firebase from "firebase/app";
+import "firebase/database";
+
 const firebaseConfig = {
     apiKey: "AIzaSyCL3HTFsdw4U04K1dPyk3N2Q31t8vD2SD0",
     authDomain: "gian-s-woodworks.firebaseapp.com",
@@ -7,3 +10,7 @@ const firebaseConfig = {
     appId: "1:552379451426:web:3c8220e23b005487f2e27b",
     measurementId: "G-93XBXRM80X"
   };
+
+  const fireDb = firebase.initializeApp(firebaseConfig);
+
+  export default fireDb.database.ref();
