@@ -1,16 +1,34 @@
-import logo from './logo.svg';
+import React, {useState} from 'react';
+import {ToastContainer, toast} from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
+import firebaseDB from "./firebase";
 import './App.css';
 
 function App() {
+  const [state, setState] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: ""
+  });
 
-  const handleSubmit = () => {
+  const {name, email, phone, message} = state;
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if(!name || !email || !message) {
+      toast.error("Please provide all required fields, thanks!");
+    }
+  };
 
-  }
+  const handleInputChange = (e) => {
+    let {name, value} = e.target;
+    setState({...state, [name]: value});
+  };
 
-  const handleInputChange = () => {};
   return (
     <section className="contact-form">
         <div className="container">
+          <ToastContainer position="top-center"/>
           <div className="row justify-content-center">
             <div className="col-md-10">
               <div className="wrapper">
@@ -26,19 +44,9 @@ function App() {
                               type="text"
                               className="form-control"
                               name="name"
-                              placeholder="First Name (required)"
+                              placeholder="Full Name (required)"
                               onChange={handleInputChange}
-                              />
-                            </div>
-                          </div>
-                          <div className="col-md-12">
-                            <div className="form-group">
-                              <input
-                              type="text"
-                              className="form-control"
-                              name="name"
-                              placeholder="Last Name (required)"
-                              onChange={handleInputChange}
+                              value={name}
                               />
                             </div>
                           </div>
@@ -50,6 +58,7 @@ function App() {
                               name="email"
                               placeholder="Email (required)"
                               onChange={handleInputChange}
+                              value={email}
                               />
                             </div>
                           </div>
@@ -61,6 +70,7 @@ function App() {
                               name="phone"
                               placeholder="Phone Number (optional)"
                               onChange={handleInputChange}
+                              value={phone}
                               />
                             </div>
                           </div>
@@ -74,6 +84,7 @@ function App() {
                               cols="30"
                               rows="6"
                               onChange={handleInputChange}
+                              value={message}
                               ></textarea>
                             </div>
                           </div>
@@ -95,7 +106,7 @@ function App() {
                         </div>
                         <div className="text pl-3">
                           <p>
-                            <span>Address:</span> 2539 golden rain san antonio texas 78245
+                            <span>Address:</span> 123 sample address, dallas, TX 78000
                           </p>
                         </div>
                       </div>
@@ -105,7 +116,7 @@ function App() {
                         </div>
                         <div className="text pl-3">
                           <p>
-                            <span>Phone:</span> 12202629654
+                            <span>Phone:</span> 555-555-5555
                           </p>
                         </div>
                       </div>
