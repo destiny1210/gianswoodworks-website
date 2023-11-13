@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {ToastContainer, toast} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
-import firebaseDB from "./firebase";
+import fireDB from "./firebase";
 import './App.css';
 
 function App() {
@@ -17,7 +17,12 @@ function App() {
     e.preventDefault();
     if(!name || !email || !message) {
       toast.error("Please provide all required fields, thanks!");
+    } else {
+        fireDB.child("emails").push(state);
+        setState({name: "", email: "", phone: "", message: "" }); 
+        toast.success("Form submitted successfully!");
     }
+
   };
 
   const handleInputChange = (e) => {
@@ -110,7 +115,7 @@ function App() {
                           </p>
                         </div>
                       </div>
-                      <div className="dbox w-100 d-flex align-items-center">
+                      <div className="dbox w-100 d-flex align-items-start">
                         <div className="icon d-flex align-items-center justify-content-center">
                           <span className="fa fa-phone"></span>
                         </div>
@@ -120,7 +125,7 @@ function App() {
                           </p>
                         </div>
                       </div>
-                      <div className="dbox w-100 d-flex align-items-center">
+                      <div className="dbox w-100 d-flex align-items-start">
                         <div className="icon d-flex align-items-center justify-content-center">
                           <span className="fa fa-paper-plane"></span>
                         </div>
