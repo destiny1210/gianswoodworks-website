@@ -1,8 +1,11 @@
 import React, {useState} from 'react';
 import {ToastContainer, toast} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
-import firebaseDB from "./firebase";
+// import firebase from './firebase';
+import fireDb from "./firebase";
+// import db from "./firebase";
 import './App.css';
+import { addDoc, collection } from 'firebase/firestore';
 
 function App() {
   const [state, setState] = useState({
@@ -13,11 +16,26 @@ function App() {
   });
 
   const {name, email, phone, message} = state;
-  const handleSubmit = (e) => {
+  
+  const handleSubmit = async (e) => {
     e.preventDefault();
+
     if(!name || !email || !message) {
       toast.error("Please provide all required fields, thanks!");
+    } else {
+      try {
+        const emailsCollection = collection(fireDb, "emails");
+        const docRef = await addDoc(emailsCollection, state);
+
+        console.log("Document written with ID: ", docRef.id);
+
+        setState({name: "", email: "", phone: "", message: "" }); 
+        toast.success("Form submitted successfully!");
+    } catch(error) {
+        console.error("Error adding document: ", error);
+        toast.error("An error occurred. Please try again later.");
     }
+  }
   };
 
   const handleInputChange = (e) => {
@@ -110,7 +128,7 @@ function App() {
                           </p>
                         </div>
                       </div>
-                      <div className="dbox w-100 d-flex align-items-center">
+                      <div className="dbox w-100 d-flex align-items-start">
                         <div className="icon d-flex align-items-center justify-content-center">
                           <span className="fa fa-phone"></span>
                         </div>
@@ -120,7 +138,7 @@ function App() {
                           </p>
                         </div>
                       </div>
-                      <div className="dbox w-100 d-flex align-items-center">
+                      <div className="dbox w-100 d-flex align-items-start">
                         <div className="icon d-flex align-items-center justify-content-center">
                           <span className="fa fa-paper-plane"></span>
                         </div>
