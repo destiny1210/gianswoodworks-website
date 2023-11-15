@@ -7,7 +7,7 @@ import fireDb from "./firebase";
 import './App.css';
 import { addDoc, collection } from 'firebase/firestore';
 
-function App() {
+function Tab3Content() {
   const [state, setState] = useState({
     name: "",
     email: "",
@@ -161,4 +161,4 @@ function App() {
   );
 }
 
-export default App;
+export default Tab3Content;

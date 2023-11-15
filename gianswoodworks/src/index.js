@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './contact.js';
+import Tab1Content from './home';
+import Tab2Content from './aboutMe.js';
+import Tab3Content from './contactForm.js';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Tab1Content />
+    <Tab2Content />
+    <Tab3Content />
   </React.StrictMode>
 );
 
