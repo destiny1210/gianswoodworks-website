@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make the container at least the full height of the viewport */
+  }
+  
+  footer {
+    margin-top: auto; /* Push the footer to the bottom of the container */
+    background-color: #f1f1f1; /* Add a background color for better visibility */
+    padding: 10px;
+    text-align: center;
+  }
