@@ -1,5 +1,29 @@
 body {
-  
+  font-family: 'NewYork';
+  color: #4B3F34;
+}
+
+.nav-tabs {
+  display: flex;
+  justify-content: flex-end; 
+  border-bottom:5px solid #116693;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100vw;
+  padding: 0; 
+  position: relative;
+
+}
+
+footer {
+  margin-top: auto; /* Push the footer to the bottom of the container */
+  background-color: #f1f1f1; /* Add a background color for better visibility */
+  padding: 10px;
+  text-align: center;
 }
 
 code {

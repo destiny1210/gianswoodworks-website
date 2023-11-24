@@ -1,12 +1,57 @@
-.container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Make the container at least the full height of the viewport */
-  }
+.carousel-item {
+    height: 100vh;
+    width: 100vw;
+    
+}
   
-  footer {
-    margin-top: auto; /* Push the footer to the bottom of the container */
-    background-color: #f1f1f1; /* Add a background color for better visibility */
-    padding: 10px;
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.carousel {
+    opacity: .5;
+}
+
+.gian-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    color: #4B3F34;
+    z-index: 2;
+    font-size: clamp(16px, 14vw, 150px);;
     text-align: center;
-  }
+    opacity: 1;
+    line-height: 1;
+    font-weight:500;
+    text-shadow: 3px 3px 3px #116693;
+}
+
+.cat-tabs {
+    display: flex;
+    justify-content: center; 
+    border-top: 5px solid #116693;
+    padding-top: 15px;
+}
+
+.cat-tabs button {
+    width: 5rem;
+    background: white;
+    text-shadow: 1px 1px 1px #116693;
+    border-radius: 50%;
+    border-color: #116693;
+    margin: 10px;
+}
+
+/* .dark-overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: .5;
+  } */

@@ -26,15 +26,15 @@ const App = () => {
   return (
   <React.StrictMode>
     <div className='container'>
-    <nav>
+      <nav className='nav-tabs'>
           <button onClick={() => setActiveTab('home')}>Home</button>
           <button onClick={() => setActiveTab('aboutMe')}>About Me</button>
           <button onClick={() => setActiveTab('contactForm')}>Contact Form</button>
-        </nav>
+      </nav>
         <div>{renderTabContent()}</div>
 
-        <footer>
-          <p>Created by Destiny Simpkins</p>
+      <footer>
+        <p>Created by Destiny Simpkins</p>
           <div className="social-links">
             <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
               Instagram
@@ -46,7 +46,7 @@ const App = () => {
               TikTok
             </a>
           </div>
-        </footer>
+      </footer>
     </div>    
   </React.StrictMode>
 );
