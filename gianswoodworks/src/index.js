@@ -26,11 +26,14 @@ const App = () => {
   return (
   <React.StrictMode>
     <div className='container'>
-      <nav className='nav-tabs'>
-          <button onClick={() => setActiveTab('home')}>Home</button>
-          <button onClick={() => setActiveTab('aboutMe')}>About Me</button>
-          <button onClick={() => setActiveTab('contactForm')}>Contact Form</button>
-      </nav>
+      <div className='navbar'>
+        <img src="gianslogo.jpeg" alt="..."/>
+        <nav className='nav-tabs'>
+            <button onClick={() => setActiveTab('home')}>Home</button>
+            <button onClick={() => setActiveTab('aboutMe')}>About Me</button>
+            <button onClick={() => setActiveTab('contactForm')}>Contact Form</button>
+        </nav>
+      </div>
         <div>{renderTabContent()}</div>
 
       <footer>

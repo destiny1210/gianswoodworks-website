@@ -3,10 +3,37 @@ body {
   color: #4B3F34;
 }
 
+.navbar {
+  border-bottom:5px solid #b49264;
+  padding: 0;
+}
+
+.navbar img {
+  display: flex;
+  justify-content: flex-start;
+  min-width: 100px;
+  width: 10vw;
+  margin: 10px;
+  margin-left: 10px;
+}
+
 .nav-tabs {
   display: flex;
   justify-content: flex-end; 
-  border-bottom:5px solid #116693;
+  
+}
+
+.nav-tabs button {
+  background: white;
+  text-shadow: 1px 1px 1px#b49264;
+  border: none;
+  border-bottom: 2px solid transparent;
+  font-size: clamp(14px, 2vw, 150px);;
+  margin-right: 12px; 
+}
+
+.nav-tabs button:hover {
+  border-bottom: 2px solid#b49264; 
 }
 
 .container {
