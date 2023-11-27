@@ -4,69 +4,69 @@ import "./App.css";
     const SubTab1Content = () => (
         <div className="subtab-content">
             <div className="subtab-titles">
-                Tables
+                Living
             </div>
+            {/* <div class="image-container">
+                <img src="/living/living1.jpg" alt="" class="flex-item" />
+                <img src="/living/living2.JPEG" alt="" class="flex-item" />
+                <img src="/living/living3.jpg" alt="" class="flex-item" />
+                <img src="/living/living4.JPG" alt="" class="flex-item" />
+                <img src="/living/living5.jpg" alt="" class="flex-item" />
+                <img src="/living/living6.jpg" alt="" class="flex-item" />
+            </div> */}
+
             <div class="card-container row row-cols-2 row-cols-sm-3 row-cols-md-4 g-3">
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/326129720_1364898330936655_8075405410832254533_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=dOXLm-3avNQAX-mIGae&_nc_oc=AQnjtPXGki6ZnE-iWeZQIvJce2tmrfAk-eTSr9xk3jtu9T9uY0Pa5rCy4yLx6CPZWn74QsaQ3YvrSKHABRuEHG81&_nc_ht=scontent-hou1-1.xx&oh=00_AfBCw7-di5Yp0dddpbiXnAB2eH24VMNl5UQWzTLfb4OT4g&oe=6562F506" class="card-img-top" alt="..."/>
+                    <div class="card">
+                        <img src="/living/living1.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h1 class="card-title">1</h1>
                             {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/316098778_576106137853620_7131654424388674613_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=hn4a5yHLLhIAX_iF0cp&_nc_ht=scontent-hou1-1.xx&oh=00_AfCcwU75DgTh-GNpj6ImaSmg4vmIpdeTkXnd5qbTZpn7uA&oe=6561C4F7" class="card-img-top" alt="..."/>
+                    <div class="card ">
+                        <img src="/living/living2.JPEG" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h1 class="card-title">2</h1>
                             {/* <p class="card-text">This is a short card.</p> */}
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/225977550_350856413178714_1982447498930010227_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=oXHXtMt4ybgAX87IgTf&_nc_ht=scontent-hou1-1.xx&oh=00_AfBMjyWdDzn-ZOx3g1y2BZOg0n1nw4ao5bHTTjIa8AdgrQ&oe=6562C1C0" class="card-img-top" alt="..."/>
+                    <div class="card">
+                        <img src="/living/living3.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h1 class="card-title">3</h1>
                             {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t1.6435-9/117765358_168574041406953_8168737415780411001_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=Ny-gLOciEqsAX8LgOs_&_nc_ht=scontent-hou1-1.xx&oh=00_AfADlyLIm-aMbEtXucMv7H2SB-YGiPuXP1DLSW7g9VqUMA&oe=65852C8D" class="card-img-top" alt="..."/>
+                    <div class="card">
+                        <img src="/living/living4.JPG" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h1 class="card-title">4</h1>
                             {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/326129720_1364898330936655_8075405410832254533_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=dOXLm-3avNQAX-mIGae&_nc_oc=AQnjtPXGki6ZnE-iWeZQIvJce2tmrfAk-eTSr9xk3jtu9T9uY0Pa5rCy4yLx6CPZWn74QsaQ3YvrSKHABRuEHG81&_nc_ht=scontent-hou1-1.xx&oh=00_AfBCw7-di5Yp0dddpbiXnAB2eH24VMNl5UQWzTLfb4OT4g&oe=6562F506" class="card-img-top" alt="..."/>
+                    <div class="card">
+                        <img src="/living/living5.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                        <h1 class="card-title">5</h1>
                             {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/316098778_576106137853620_7131654424388674613_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=hn4a5yHLLhIAX_iF0cp&_nc_ht=scontent-hou1-1.xx&oh=00_AfCcwU75DgTh-GNpj6ImaSmg4vmIpdeTkXnd5qbTZpn7uA&oe=6561C4F7" class="card-img-top" alt="..."/>
+                    <div class="card">
+                        <img src="/living/living6.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h1 class="card-title">6</h1>
                             {/* <p class="card-text">This is a short card.</p> */}
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/225977550_350856413178714_1982447498930010227_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=oXHXtMt4ybgAX87IgTf&_nc_ht=scontent-hou1-1.xx&oh=00_AfBMjyWdDzn-ZOx3g1y2BZOg0n1nw4ao5bHTTjIa8AdgrQ&oe=6562C1C0" class="card-img-top" alt="..."/>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
                         </div>
                     </div>
                 </div>
@@ -77,69 +77,56 @@ import "./App.css";
       const SubTab2Content = () => (
         <div className="subtab-content">
             <div className="subtab-titles">
-                Chairs
+                Desks
             </div>
+            {/* <div class="image-container">
+                <img src="/desks/desk1.jpg" alt="" class="flex-item"/>
+                <img src="/desks/desk2.jpg" alt="" class="flex-item"/>
+                <img src="/desks/desk3.jpg" alt="" class="flex-item"/>
+                <img src="/desks/desk4.jpg" alt="" class="flex-item"/>
+                <img src="/desks/desk5.jpg" alt="" class="flex-item"/>
+            </div> */}
             <div class="card-container row row-cols-2 row-cols-sm-3 row-cols-md-4 g-3">
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/326129720_1364898330936655_8075405410832254533_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=dOXLm-3avNQAX-mIGae&_nc_oc=AQnjtPXGki6ZnE-iWeZQIvJce2tmrfAk-eTSr9xk3jtu9T9uY0Pa5rCy4yLx6CPZWn74QsaQ3YvrSKHABRuEHG81&_nc_ht=scontent-hou1-1.xx&oh=00_AfBCw7-di5Yp0dddpbiXnAB2eH24VMNl5UQWzTLfb4OT4g&oe=6562F506" class="card-img-top" alt="..."/>
+                        <img src="/desks/desk1.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h1 class="card-title">7</h1>
                             {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/316098778_576106137853620_7131654424388674613_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=hn4a5yHLLhIAX_iF0cp&_nc_ht=scontent-hou1-1.xx&oh=00_AfCcwU75DgTh-GNpj6ImaSmg4vmIpdeTkXnd5qbTZpn7uA&oe=6561C4F7" class="card-img-top" alt="..."/>
+                        <img src="/desks/desk2.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h1 class="card-title">8</h1>
                             {/* <p class="card-text">This is a short card.</p> */}
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/225977550_350856413178714_1982447498930010227_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=oXHXtMt4ybgAX87IgTf&_nc_ht=scontent-hou1-1.xx&oh=00_AfBMjyWdDzn-ZOx3g1y2BZOg0n1nw4ao5bHTTjIa8AdgrQ&oe=6562C1C0" class="card-img-top" alt="..."/>
+                        <img src="/desks/desk3.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h1 class="card-title">9</h1>
                             {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t1.6435-9/117765358_168574041406953_8168737415780411001_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=Ny-gLOciEqsAX8LgOs_&_nc_ht=scontent-hou1-1.xx&oh=00_AfADlyLIm-aMbEtXucMv7H2SB-YGiPuXP1DLSW7g9VqUMA&oe=65852C8D" class="card-img-top" alt="..."/>
+                        <img src="/desks/desk4.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                            <h1 class="card-title">10</h1>                               {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/326129720_1364898330936655_8075405410832254533_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=dOXLm-3avNQAX-mIGae&_nc_oc=AQnjtPXGki6ZnE-iWeZQIvJce2tmrfAk-eTSr9xk3jtu9T9uY0Pa5rCy4yLx6CPZWn74QsaQ3YvrSKHABRuEHG81&_nc_ht=scontent-hou1-1.xx&oh=00_AfBCw7-di5Yp0dddpbiXnAB2eH24VMNl5UQWzTLfb4OT4g&oe=6562F506" class="card-img-top" alt="..."/>
+                        <img src="/desks/desk5.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/316098778_576106137853620_7131654424388674613_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=hn4a5yHLLhIAX_iF0cp&_nc_ht=scontent-hou1-1.xx&oh=00_AfCcwU75DgTh-GNpj6ImaSmg4vmIpdeTkXnd5qbTZpn7uA&oe=6561C4F7" class="card-img-top" alt="..."/>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            {/* <p class="card-text">This is a short card.</p> */}
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/225977550_350856413178714_1982447498930010227_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=oXHXtMt4ybgAX87IgTf&_nc_ht=scontent-hou1-1.xx&oh=00_AfBMjyWdDzn-ZOx3g1y2BZOg0n1nw4ao5bHTTjIa8AdgrQ&oe=6562C1C0" class="card-img-top" alt="..."/>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
+                            <h1 class="card-title">11</h1>                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
                         </div>
                     </div>
                 </div>
@@ -150,69 +137,77 @@ import "./App.css";
       const SubTab3Content = () => (
         <div className="subtab-content">
             <div className="subtab-titles">
-                Barn Doors
+                Doors
             </div>
+            {/* <div class="image-container">
+                <img src="/doors/door1.jpg" alt="" class="flex-item"/>
+                <img src="/doors/door2.jpg" alt="" class="flex-item"/>
+                <img src="/doors/door3.jpg" alt="" class="flex-item"/>
+                <img src="/doors/door4.jpg" alt="" class="flex-item"/>
+                <img src="/doors/door5.jpg" alt="" class="flex-item"/>
+                <img src="/doors/door6.jpg" alt="" class="flex-item"/>
+                <img src="/doors/door7.jpg" alt="" class="flex-item"/>
+            </div> */}
             <div class="card-container row row-cols-2 row-cols-sm-3 row-cols-md-4 g-3">
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/326129720_1364898330936655_8075405410832254533_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=dOXLm-3avNQAX-mIGae&_nc_oc=AQnjtPXGki6ZnE-iWeZQIvJce2tmrfAk-eTSr9xk3jtu9T9uY0Pa5rCy4yLx6CPZWn74QsaQ3YvrSKHABRuEHG81&_nc_ht=scontent-hou1-1.xx&oh=00_AfBCw7-di5Yp0dddpbiXnAB2eH24VMNl5UQWzTLfb4OT4g&oe=6562F506" class="card-img-top" alt="..."/>
+                        <img src="/doors/door1.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h1 class="card-title">12</h1>
                             {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/316098778_576106137853620_7131654424388674613_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=hn4a5yHLLhIAX_iF0cp&_nc_ht=scontent-hou1-1.xx&oh=00_AfCcwU75DgTh-GNpj6ImaSmg4vmIpdeTkXnd5qbTZpn7uA&oe=6561C4F7" class="card-img-top" alt="..."/>
+                        <img src="/doors/door2.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h1 class="card-title">13</h1> 
                             {/* <p class="card-text">This is a short card.</p> */}
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/225977550_350856413178714_1982447498930010227_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=oXHXtMt4ybgAX87IgTf&_nc_ht=scontent-hou1-1.xx&oh=00_AfBMjyWdDzn-ZOx3g1y2BZOg0n1nw4ao5bHTTjIa8AdgrQ&oe=6562C1C0" class="card-img-top" alt="..."/>
+                        <img src="/doors/door3.JPG" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h1 class="card-title">14</h1>
                             {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t1.6435-9/117765358_168574041406953_8168737415780411001_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=Ny-gLOciEqsAX8LgOs_&_nc_ht=scontent-hou1-1.xx&oh=00_AfADlyLIm-aMbEtXucMv7H2SB-YGiPuXP1DLSW7g9VqUMA&oe=65852C8D" class="card-img-top" alt="..."/>
+                        <img src="/doors/door4.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h1 class="card-title">15</h1>
                             {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/326129720_1364898330936655_8075405410832254533_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=dOXLm-3avNQAX-mIGae&_nc_oc=AQnjtPXGki6ZnE-iWeZQIvJce2tmrfAk-eTSr9xk3jtu9T9uY0Pa5rCy4yLx6CPZWn74QsaQ3YvrSKHABRuEHG81&_nc_ht=scontent-hou1-1.xx&oh=00_AfBCw7-di5Yp0dddpbiXnAB2eH24VMNl5UQWzTLfb4OT4g&oe=6562F506" class="card-img-top" alt="..."/>
+                        <img src="/doors/door5.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h1 class="card-title">16</h1>
                             {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/316098778_576106137853620_7131654424388674613_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=hn4a5yHLLhIAX_iF0cp&_nc_ht=scontent-hou1-1.xx&oh=00_AfCcwU75DgTh-GNpj6ImaSmg4vmIpdeTkXnd5qbTZpn7uA&oe=6561C4F7" class="card-img-top" alt="..."/>
+                        <img src="/doors/door6.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h1 class="card-title">11</h1>                            
                             {/* <p class="card-text">This is a short card.</p> */}
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/225977550_350856413178714_1982447498930010227_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=oXHXtMt4ybgAX87IgTf&_nc_ht=scontent-hou1-1.xx&oh=00_AfBMjyWdDzn-ZOx3g1y2BZOg0n1nw4ao5bHTTjIa8AdgrQ&oe=6562C1C0" class="card-img-top" alt="..."/>
+                        <img src="/doors/door7.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
+                            <h1 class="card-title">11</h1>                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
                         </div>
                     </div>
                 </div>
@@ -223,69 +218,51 @@ import "./App.css";
       const SubTab4Content = () => (
         <div className="subtab-content">
             <div className="subtab-titles">
-                Dressers/ Chests
+                Dining
             </div>
+            {/* <div class="image-container ">
+                <div className="img-text">
+                    <img src="/dining/dining1.jpg" alt="" class="flex-item " />
+                    <div class="text-overlay">Your Text Here</div>
+                </div>
+                <img src="/dining/dining2.jpg" alt="" class="flex-item" />
+                <img src="/dining/dining3.jpg" alt="" class="flex-item" />
+                <img src="/dining/dining4.jpg" alt="" class="flex-item" />
+            </div> */}
             <div class="card-container row row-cols-2 row-cols-sm-3 row-cols-md-4 g-3">
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/326129720_1364898330936655_8075405410832254533_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=dOXLm-3avNQAX-mIGae&_nc_oc=AQnjtPXGki6ZnE-iWeZQIvJce2tmrfAk-eTSr9xk3jtu9T9uY0Pa5rCy4yLx6CPZWn74QsaQ3YvrSKHABRuEHG81&_nc_ht=scontent-hou1-1.xx&oh=00_AfBCw7-di5Yp0dddpbiXnAB2eH24VMNl5UQWzTLfb4OT4g&oe=6562F506" class="card-img-top" alt="..."/>
+                        <img src="/dining/dining1.jpg" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h1 class="card-title">15</h1>
                             {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/316098778_576106137853620_7131654424388674613_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=hn4a5yHLLhIAX_iF0cp&_nc_ht=scontent-hou1-1.xx&oh=00_AfCcwU75DgTh-GNpj6ImaSmg4vmIpdeTkXnd5qbTZpn7uA&oe=6561C4F7" class="card-img-top" alt="..."/>
+                        <img src="/dining/dining2.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h1 class="card-title">15</h1>
                             {/* <p class="card-text">This is a short card.</p> */}
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/225977550_350856413178714_1982447498930010227_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=oXHXtMt4ybgAX87IgTf&_nc_ht=scontent-hou1-1.xx&oh=00_AfBMjyWdDzn-ZOx3g1y2BZOg0n1nw4ao5bHTTjIa8AdgrQ&oe=6562C1C0" class="card-img-top" alt="..."/>
+                        <img src="/dining/dining3.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h1 class="card-title">15</h1>
                             {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t1.6435-9/117765358_168574041406953_8168737415780411001_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=Ny-gLOciEqsAX8LgOs_&_nc_ht=scontent-hou1-1.xx&oh=00_AfADlyLIm-aMbEtXucMv7H2SB-YGiPuXP1DLSW7g9VqUMA&oe=65852C8D" class="card-img-top" alt="..."/>
+                        <img src="/dining/dining4.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h1 class="card-title">15</h1>
                             {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/326129720_1364898330936655_8075405410832254533_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=dOXLm-3avNQAX-mIGae&_nc_oc=AQnjtPXGki6ZnE-iWeZQIvJce2tmrfAk-eTSr9xk3jtu9T9uY0Pa5rCy4yLx6CPZWn74QsaQ3YvrSKHABRuEHG81&_nc_ht=scontent-hou1-1.xx&oh=00_AfBCw7-di5Yp0dddpbiXnAB2eH24VMNl5UQWzTLfb4OT4g&oe=6562F506" class="card-img-top" alt="..."/>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/316098778_576106137853620_7131654424388674613_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=hn4a5yHLLhIAX_iF0cp&_nc_ht=scontent-hou1-1.xx&oh=00_AfCcwU75DgTh-GNpj6ImaSmg4vmIpdeTkXnd5qbTZpn7uA&oe=6561C4F7" class="card-img-top" alt="..."/>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            {/* <p class="card-text">This is a short card.</p> */}
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/225977550_350856413178714_1982447498930010227_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=oXHXtMt4ybgAX87IgTf&_nc_ht=scontent-hou1-1.xx&oh=00_AfBMjyWdDzn-ZOx3g1y2BZOg0n1nw4ao5bHTTjIa8AdgrQ&oe=6562C1C0" class="card-img-top" alt="..."/>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
                         </div>
                     </div>
                 </div>
@@ -296,69 +273,89 @@ import "./App.css";
       const SubTab5Content = () => (
         <div className="subtab-content">
             <div className="subtab-titles">
-                Unique
+                Boards
             </div>
+            {/* <div class="image-container">
+                <img src="/boards/board1.jpg" alt="" class="flex-item" />
+                <img src="/boards/board2.jpg" alt="" class="flex-item" />
+                <img src="/boards/board3.jpg" alt="" class="flex-item" />
+                <img src="/boards/board4.jpg" alt="" class="flex-item" />
+                <img src="/boards/board5.jpg" alt="" class="flex-item" />
+                <img src="/boards/board6.jpg" alt="" class="flex-item" />
+                <img src="/boards/board7.jpg" alt="" class="flex-item" />
+                <img src="/boards/board8.jpg" alt="" class="flex-item" />
+                <img src="/boards/board9.jpg" alt="" class="flex-item" />
+            </div> */}
             <div class="card-container row row-cols-2 row-cols-sm-3 row-cols-md-4 g-3">
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/326129720_1364898330936655_8075405410832254533_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=dOXLm-3avNQAX-mIGae&_nc_oc=AQnjtPXGki6ZnE-iWeZQIvJce2tmrfAk-eTSr9xk3jtu9T9uY0Pa5rCy4yLx6CPZWn74QsaQ3YvrSKHABRuEHG81&_nc_ht=scontent-hou1-1.xx&oh=00_AfBCw7-di5Yp0dddpbiXnAB2eH24VMNl5UQWzTLfb4OT4g&oe=6562F506" class="card-img-top" alt="..."/>
+                        <img src="/boards/board1.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                            <h1 class="card-title">15</h1>                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/316098778_576106137853620_7131654424388674613_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=hn4a5yHLLhIAX_iF0cp&_nc_ht=scontent-hou1-1.xx&oh=00_AfCcwU75DgTh-GNpj6ImaSmg4vmIpdeTkXnd5qbTZpn7uA&oe=6561C4F7" class="card-img-top" alt="..."/>
+                        <img src="/boards/board2.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            {/* <p class="card-text">This is a short card.</p> */}
+                            <h1 class="card-title">15</h1>                            {/* <p class="card-text">This is a short card.</p> */}
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/225977550_350856413178714_1982447498930010227_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=oXHXtMt4ybgAX87IgTf&_nc_ht=scontent-hou1-1.xx&oh=00_AfBMjyWdDzn-ZOx3g1y2BZOg0n1nw4ao5bHTTjIa8AdgrQ&oe=6562C1C0" class="card-img-top" alt="..."/>
+                        <img src="/boards/board3.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
+                            <h1 class="card-title">15</h1>                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t1.6435-9/117765358_168574041406953_8168737415780411001_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=Ny-gLOciEqsAX8LgOs_&_nc_ht=scontent-hou1-1.xx&oh=00_AfADlyLIm-aMbEtXucMv7H2SB-YGiPuXP1DLSW7g9VqUMA&oe=65852C8D" class="card-img-top" alt="..."/>
+                        <img src="/boards/board4.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                            <h1 class="card-title">15</h1>                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/326129720_1364898330936655_8075405410832254533_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=dOXLm-3avNQAX-mIGae&_nc_oc=AQnjtPXGki6ZnE-iWeZQIvJce2tmrfAk-eTSr9xk3jtu9T9uY0Pa5rCy4yLx6CPZWn74QsaQ3YvrSKHABRuEHG81&_nc_ht=scontent-hou1-1.xx&oh=00_AfBCw7-di5Yp0dddpbiXnAB2eH24VMNl5UQWzTLfb4OT4g&oe=6562F506" class="card-img-top" alt="..."/>
+                        <img src="/boards/board5.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                            <h1 class="card-title">15</h1>                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/316098778_576106137853620_7131654424388674613_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=hn4a5yHLLhIAX_iF0cp&_nc_ht=scontent-hou1-1.xx&oh=00_AfCcwU75DgTh-GNpj6ImaSmg4vmIpdeTkXnd5qbTZpn7uA&oe=6561C4F7" class="card-img-top" alt="..."/>
+                        <img src="/boards/board6.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            {/* <p class="card-text">This is a short card.</p> */}
+                            <h1 class="card-title">15</h1>                            {/* <p class="card-text">This is a short card.</p> */}
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/225977550_350856413178714_1982447498930010227_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=oXHXtMt4ybgAX87IgTf&_nc_ht=scontent-hou1-1.xx&oh=00_AfBMjyWdDzn-ZOx3g1y2BZOg0n1nw4ao5bHTTjIa8AdgrQ&oe=6562C1C0" class="card-img-top" alt="..."/>
+                        <img src="/boards/board7.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
+                            <h1 class="card-title">15</h1>                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="/boards/board8.jpg" class="card-img-top" alt="..."/>
+                        <div class="card-body">
+                            <h1 class="card-title">15</h1>                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="/boards/board9.jpg" class="card-img-top" alt="..."/>
+                        <div class="card-body">
+                            <h1 class="card-title">15</h1>                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
                         </div>
                     </div>
                 </div>
@@ -415,11 +412,11 @@ import "./App.css";
             </div>
             <div className="categories">
                 <nav className="cat-tabs">
-                    <button onClick={() => setActiveSubTab('subTab1')}>Tables</button>
-                    <button onClick={() => setActiveSubTab('subTab2')}>Chairs</button>
-                    <button onClick={() => setActiveSubTab('subTab3')}>Barn Doors</button>
-                    <button onClick={() => setActiveSubTab('subTab4')}>Dressers/ Chests</button>
-                    <button onClick={() => setActiveSubTab('subTab5')}>Unique</button>
+                    <button onClick={() => setActiveSubTab('subTab1')}>Living</button>
+                    <button onClick={() => setActiveSubTab('subTab2')}>Desks</button>
+                    <button onClick={() => setActiveSubTab('subTab3')}>Doors</button>
+                    <button onClick={() => setActiveSubTab('subTab4')}>Dining</button>
+                    <button onClick={() => setActiveSubTab('subTab5')}>Boards</button>
                 </nav>
             <div>{renderSubContent()}</div>
         </div>

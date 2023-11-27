@@ -45,22 +45,24 @@ function Tab3Content() {
 
   return (
     <section className="contact-form">
-        <div className="container">
+        <div className="container ">
           <ToastContainer position="top-center"/>
           <div className="row justify-content-center">
             <div className="col-md-10">
               <div className="wrapper">
-                <div className="row no-gutters">
-                  <div className="col-md-6">
-                    <div className="contact-wrap w-100 p-lg-5 p-4">
-                      <h5 className="mb-4">Send Me an Email!</h5>
+                <div className="row no-gutters justify-content-center">
+                  <div className="col-md-10">
+                    <div className="wrapper contact-wrap w-100 p-lg-5 p-4">
+                      <h2 >Send Me an Email!</h2>
+                      <p>Please provide all required info and write a brief message about what you are interested in having made. If you love something you see on the website and would like to have a similar one crafted, please reference the photo by the number underneath it (e.g. "I would like something similiar to photo 12"). Thanks!
+                      </p>
                       <form id="contactForm" className="contactForm" onSubmit={handleSubmit}>
                         <div className="row">
                           <div className="col-md-12">
                             <div className="form-group">
                               <input
                               type="text"
-                              className="form-control"
+                              className="form-control custom-placeholder-color"
                               name="name"
                               placeholder="Full Name (required)"
                               onChange={handleInputChange}
@@ -72,7 +74,7 @@ function Tab3Content() {
                             <div className="form-group">
                               <input
                               type="email"
-                              className="form-control"
+                              className="form-control custom-placeholder-color"
                               name="email"
                               placeholder="Email (required)"
                               onChange={handleInputChange}
@@ -80,11 +82,11 @@ function Tab3Content() {
                               />
                             </div>
                           </div>
-                          <div className="col-md-12">
+                          <div className="col-md-12 ">
                             <div className="form-group">
                               <input
                               type="tel"
-                              className="form-control"
+                              className="form-control custom-placeholder-color"
                               name="phone"
                               placeholder="Phone Number (optional)"
                               onChange={handleInputChange}
@@ -96,7 +98,7 @@ function Tab3Content() {
                             <div className="form-group">
                               <textarea
                               type="message"
-                              className="form-control"
+                              className="form-control custom-placeholder-color"
                               name="message"
                               placeholder="Message (required)"
                               cols="30"
@@ -108,13 +110,13 @@ function Tab3Content() {
                           </div>
                           <div className="col-md-12">
                             <div className="form-group">
-                              <input type="submit" value="send Message" className="btn btn-primary"/>                            </div>
+                              <input type="submit" value="Send Email" className="btn btn-primary"/>                            </div>
                           </div>
                         </div>
                       </form>
                     </div>
                   </div>
-                  <div className="col-md-6 d-flex align-items-stretch">
+                  {/* <div className="col-md-6 d-flex align-items-stretch">
                     <div className="info-wrap w-100 p-lg-5 p-4 img">
                       <h3>Contact Me!</h3>
                       <p className="mb-4"> Please provide a brief description about what type of item/items you would like to have made!</p>
@@ -150,7 +152,7 @@ function Tab3Content() {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

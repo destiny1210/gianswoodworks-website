@@ -12,10 +12,6 @@
     object-fit: cover;
 
 }
-  
-.carousel {
-/* opacity: .5; */
-}
 
 .gian-text {
     position: absolute;
@@ -30,7 +26,7 @@
     line-height: 1;
     font-weight:500;
     text-shadow: 3px 3px 3px #b49264;
-    background-color: rgba(255, 255, 255, 0.526);
+    background-color: rgba(255, 255, 255, 0.348);
     padding: 30px;
     border-radius: 30%;
 }
@@ -56,7 +52,7 @@
     border: none;
     margin-left: 6px;
     margin-right: 6px;
-    font-size: clamp(14px, 2vw, 150px);;
+    font-size: clamp(14px, 2vw, 150px);
     border-bottom: 2px solid transparent;
 }
 
@@ -77,20 +73,162 @@
 }
 
 .card-container {
-    margin: 10px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
 }
 
 .card {
-    border: solid 1px #b49264;
+    border: none;
 }
 
-/* .dark-overlay::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
+.col{
+    padding: 0;
+    padding: 2px;
+}
+
+/* .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+    margin: 15px;
+    justify-content: center;
+    
+} */
+
+/* .flex-item {
+    flex: 1 0 calc(25% - 16px); 
+    max-width: calc(25% - 16px);
+    border: solid 1.5px #b49264;
+    border-radius: 3%;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .image-container img {
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    opacity: .5;
+    object-fit: contain; 
+    
+    
+} */
+
+.card-body h1{
+    border: solid 1px #b49264;
+    padding-left: 5px;
+    border-top: none;
+    padding-right: 5px;
+}
+
+.card-body{
+    padding: 0;
+    width: fit-content;
+}
+
+.card-title{
+    margin: 0;
+}
+
+/* .img-text {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .img-text img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
   } */
+
+
+@media (max-width: 1000px) {
+    .flex-item {
+      flex-basis: calc(33% - 16px); /* 50% for 2 columns, minus gap */
+      max-width: calc(33% - 16px); /* 50% for 2 columns, minus gap */
+    }
+  }
+@media (max-width: 600px) {
+    .flex-item {
+      flex-basis: calc(50% - 16px); /* 50% for 2 columns, minus gap */
+      max-width: calc(50% - 16px); /* 50% for 2 columns, minus gap */
+    }
+  }
+
+/* About Me Page */
+
+.aboutMe-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: clamp(35px, 4vw, 150px);
+    font-weight:500;
+    text-shadow: 2px 2px 2px #b49264;
+
+}
+
+.aboutMe-pic {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutMe-pic img{
+    width: 50vw;
+    min-width: 300px;
+    max-width: 1100px;
+    border-radius: 50%;
+    border: double 8px  #b49264;
+}
+
+.aboutMe-paragraph{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: clamp(14px, 2vw, 20px) ;
+    color: #4B3F34;
+    font-family: "Rockwell";
+
+}
+
+/* Contact Form Page */
+
+.wrapper h2 {
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 2px #b49264;
+    font-weight:bolder;
+
+
+}
+
+.wrapper p {
+    display: flex;
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: "Rockwell";
+}
+.custom-placeholder-color::placeholder {
+    color:#4b3f34a5;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Rockwell";
+  }
+
+
