@@ -198,7 +198,7 @@ import "./App.css";
                     <div class="card h-100">
                         <img src="/doors/door6.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h1 class="card-title">11</h1>                            
+                            <h1 class="card-title">17</h1>                            
                             {/* <p class="card-text">This is a short card.</p> */}
                         </div>
                     </div>
@@ -207,7 +207,7 @@ import "./App.css";
                     <div class="card h-100">
                         <img src="/doors/door7.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h1 class="card-title">11</h1>                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
+                            <h1 class="card-title">18</h1>                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
                         </div>
                     </div>
                 </div>
@@ -234,7 +234,7 @@ import "./App.css";
                     <div class="card h-100">
                         <img src="/dining/dining1.jpg" alt="..."/>
                         <div class="card-body">
-                            <h1 class="card-title">15</h1>
+                            <h1 class="card-title">19</h1>
                             {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
                         </div>
                     </div>
@@ -243,7 +243,7 @@ import "./App.css";
                     <div class="card h-100">
                         <img src="/dining/dining2.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h1 class="card-title">15</h1>
+                            <h1 class="card-title">20</h1>
                             {/* <p class="card-text">This is a short card.</p> */}
                         </div>
                     </div>
@@ -252,7 +252,7 @@ import "./App.css";
                     <div class="card h-100">
                         <img src="/dining/dining3.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h1 class="card-title">15</h1>
+                            <h1 class="card-title">21</h1>
                             {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
                         </div>
                     </div>
@@ -261,7 +261,7 @@ import "./App.css";
                     <div class="card h-100">
                         <img src="/dining/dining4.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h1 class="card-title">15</h1>
+                            <h1 class="card-title">22</h1>
                             {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
                         </div>
                     </div>
@@ -291,7 +291,7 @@ import "./App.css";
                     <div class="card h-100">
                         <img src="/boards/board1.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h1 class="card-title">15</h1>                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                            <h1 class="card-title">23</h1>                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
                         </div>
                     </div>
                 </div>
@@ -299,7 +299,7 @@ import "./App.css";
                     <div class="card h-100">
                         <img src="/boards/board2.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h1 class="card-title">15</h1>                            {/* <p class="card-text">This is a short card.</p> */}
+                            <h1 class="card-title">24</h1>                            {/* <p class="card-text">This is a short card.</p> */}
                         </div>
                     </div>
                 </div>
@@ -307,7 +307,7 @@ import "./App.css";
                     <div class="card h-100">
                         <img src="/boards/board3.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h1 class="card-title">15</h1>                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
+                            <h1 class="card-title">25</h1>                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
                         </div>
                     </div>
                 </div>
@@ -315,7 +315,7 @@ import "./App.css";
                     <div class="card h-100">
                         <img src="/boards/board4.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h1 class="card-title">15</h1>                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                            <h1 class="card-title">26</h1>                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
                         </div>
                     </div>
                 </div>
@@ -323,7 +323,7 @@ import "./App.css";
                     <div class="card h-100">
                         <img src="/boards/board5.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h1 class="card-title">15</h1>                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                            <h1 class="card-title">27</h1>                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
                         </div>
                     </div>
                 </div>
@@ -331,7 +331,7 @@ import "./App.css";
                     <div class="card h-100">
                         <img src="/boards/board6.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h1 class="card-title">15</h1>                            {/* <p class="card-text">This is a short card.</p> */}
+                            <h1 class="card-title">28</h1>                            {/* <p class="card-text">This is a short card.</p> */}
                         </div>
                     </div>
                 </div>
@@ -339,7 +339,7 @@ import "./App.css";
                     <div class="card h-100">
                         <img src="/boards/board7.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h1 class="card-title">15</h1>                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
+                            <h1 class="card-title">29</h1>                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
                         </div>
                     </div>
                 </div>
@@ -347,7 +347,7 @@ import "./App.css";
                     <div class="card h-100">
                         <img src="/boards/board8.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h1 class="card-title">15</h1>                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
+                            <h1 class="card-title">30</h1>                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
                         </div>
                     </div>
                 </div>
@@ -355,7 +355,7 @@ import "./App.css";
                     <div class="card h-100">
                         <img src="/boards/board9.jpg" class="card-img-top" alt="..."/>
                         <div class="card-body">
-                            <h1 class="card-title">15</h1>                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
+                            <h1 class="card-title">31</h1>                            {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
                         </div>
                     </div>
                 </div>
@@ -389,13 +389,19 @@ import "./App.css";
         <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/324858971_868232851182903_5596039766776392032_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=wZfTI05kKggAX8Jw0Ya&_nc_ht=scontent-hou1-1.xx&oh=00_AfAAqMQCkoiCoL4E11Mlr1fNVqMlI-GBSCAsJxhOP7TfWw&oe=6562A877" className="d-block w-100" alt="..."/>
+                    <img src="living/living4.jpg" className="d-block w-100" alt="..."/>
                 </div>
                 <div className="carousel-item">
-                    <img src="https://www.taranecodesigns.co.uk/cdn/shop/products/C9A1528_800x.jpg?v=1595075795" className="d-block w-100" alt="..."/>
+                    <img src="living/living3.jpg" className="d-block w-100" alt="..."/>
                 </div>
                 <div className="carousel-item">
-                    <img src="https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/317606416_576106157853618_3031461848626480425_n.jpg?stp=cp6_dst-jpg&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=PSQ-DSwNZfkAX_MvhlO&_nc_ht=scontent-hou1-1.xx&oh=00_AfDGccb8RHENF3hzOKnYUpOg3YBhiC8i22EjxUgtKEjrJw&oe=6562F795" className="d-block w-100" alt="..."/>
+                    <img src="boards/board5.jpg" className="d-block w-100" alt="..."/>
+                </div>
+                <div className="carousel-item">
+                    <img src="doors/door4.jpg" className="d-block w-100" alt="..."/>
+                </div>
+                <div className="carousel-item">
+                    <img src="boards/board4.jpg" className="d-block w-100" alt="..."/>
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
