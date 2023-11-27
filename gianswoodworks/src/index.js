@@ -37,18 +37,7 @@ const App = () => {
         <div>{renderTabContent()}</div>
 
       <footer>
-        <p>Created by Destiny Simpkins</p>
-          <div className="social-links">
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-              Instagram
-            </a>
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-              Facebook
-            </a>
-            <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer">
-              TikTok
-            </a>
-          </div>
+        <p>Website Created by Destiny Simpkins</p>
       </footer>
     </div>    
   </React.StrictMode>

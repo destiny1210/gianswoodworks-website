@@ -201,7 +201,7 @@
     margin-right: 10vw;
     margin-top: 3vh;
     margin-bottom: 3vh;
-    font-size: clamp(14px, 2vw, 20px) ;
+    font-size: clamp(14px, 2vw, 20px);
     color: #4B3F34;
     font-family: "Rockwell";
 
@@ -209,7 +209,7 @@
 
 /* Contact Form Page */
 
-.wrapper h2 {
+.wrapper h1 {
     display: flex;
     justify-content: center;
     text-shadow: 2px 2px 2px #b49264;
@@ -230,5 +230,40 @@
     font-weight: 500;
     font-family: "Rockwell";
   }
+
+.btn{
+    background-color: #b49264;
+    color: white;
+}
+
+.btn:hover{
+    background-color:#dcb988;
+    color: white;
+}
+
+.social-icon svg{
+    margin: 5px;
+}
+
+
+.socials h1 {
+    display: flex;
+    justify-content: center;
+    color: #4B3F34;
+    text-shadow: 2px 2px 2px #b49264;
+}
+
+.social-links{
+    color: #b49264;
+    font-size: 3vw;
+    font-size: clamp(20px, 3vw, 30px);
+
+}
+
+.social-links:hover {
+    color: #dcb988;
+    cursor: pointer;
+
+}
 
 

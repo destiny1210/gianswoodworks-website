@@ -51,9 +51,8 @@ body {
 }
 
 footer {
-  margin-top: auto; /* Push the footer to the bottom of the container */
-  background-color: #f1f1f1; /* Add a background color for better visibility */
-  padding: 10px;
+  margin-top: auto; 
+  background-color:#b49264a6;
   text-align: center;
 }
 
