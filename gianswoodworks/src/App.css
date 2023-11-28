@@ -209,6 +209,10 @@
 
 /* Contact Form Page */
 
+.form-control {
+    font-family: "Rockwell";
+    font-size: clamp(14px, 2vw, 18px);}
+
 .wrapper h1 {
     display: flex;
     justify-content: center;
@@ -234,6 +238,9 @@
 .btn{
     background-color: #b49264;
     color: white;
+    width: 10vw;
+    min-width: fit-content;
+    max-width: 125px;
 }
 
 .btn:hover{

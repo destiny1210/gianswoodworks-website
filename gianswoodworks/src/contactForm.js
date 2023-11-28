@@ -9,14 +9,14 @@ import { addDoc, collection } from 'firebase/firestore';
 import emailjs from '@emailjs/browser';
 
 function Tab3Content() {
-  // const [state, setState] = useState({
-  //   name: "",
-  //   email: "",
-  //   phone: "",
-  //   message: ""
-  // });
+  const [state, setState] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: ""
+  });
 
-  // const {name, email, phone, message} = state;
+  const {name, email, phone, message} = state;
   
   // const handleSubmit = async (e) => {
   //   e.preventDefault();
@@ -40,30 +40,38 @@ function Tab3Content() {
   // }
   // };
 
-  // const handleInputChange = (e) => {
-  //   let {name, value} = e.target;
-  //   setState({...state, [name]: value});
-  // };
+  const handleInputChange = (e) => {
+    let {name, value} = e.target;
+    setState({...state, [name]: value});
+  };
 
   const form = useRef();
+  const serviceId = process.env.REACT_APP_SERVICE_ID;
+  const templateId = process.env.REACT_APP_TEMPLATE_ID;
+  const publicKey = process.env.REACT_APP_PUBLIC_KEY;
 
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
-
-    emailjs.sendForm(
-      'service_f9joea9', 
-      'template_dk2cn3b', 
-      form.current, 
-      'Yw3ZMf7kI2abuzJxh'
-      )
-
-      .then((result) => {
-          console.log(result.text);
-          console.log("Message Sent!");
-          e.target.reset();
-      }, (error) => {
-          console.log(error.text);
-      });
+    
+    if (!name || !email || !message) {
+      toast.error("Please provide all required fields, thanks!");
+    } else {
+      try {
+        await emailjs.sendForm(
+          serviceId,
+          templateId,
+          e.target,
+          publicKey
+        );
+        setState({name: "", email: "", phone: "", message: "" });
+        console.log("Message Sent!");
+        toast.success("Form submitted successfully!");
+        e.target.reset();
+      } catch (error) {
+        console.error(error.text);
+        toast.error("An error occurred. Please try again later.");
+      }
+    }
   };
 
   return (
@@ -89,8 +97,8 @@ function Tab3Content() {
                               className="form-control custom-placeholder-color"
                               name="name"
                               placeholder="Full Name (required)"
-                              // onChange={handleInputChange}
-                              // value={name}
+                              onChange={handleInputChange}
+                              value={name}
                               />
                             </div>
                           </div>
@@ -101,8 +109,8 @@ function Tab3Content() {
                               className="form-control custom-placeholder-color"
                               name="email"
                               placeholder="Email (required)"
-                              // onChange={handleInputChange}
-                              // value={email}
+                              onChange={handleInputChange}
+                              value={email}
                               />
                             </div>
                           </div>
@@ -113,8 +121,8 @@ function Tab3Content() {
                               className="form-control custom-placeholder-color"
                               name="phone"
                               placeholder="Phone Number (optional)"
-                              // onChange={handleInputChange}
-                              // value={phone}
+                              onChange={handleInputChange}
+                              value={phone}
                               />
                             </div>
                           </div>
@@ -127,8 +135,8 @@ function Tab3Content() {
                               placeholder="Message (required)"
                               cols="30"
                               rows="6"
-                              // onChange={handleInputChange}
-                              // value={message}
+                              onChange={handleInputChange}
+                              value={message}
                               ></textarea>
                             </div>
                           </div>
