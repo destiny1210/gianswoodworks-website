@@ -28,8 +28,8 @@ body {
   text-shadow: 1px 1px 1px#b49264;
   border: none;
   border-bottom: 2px solid transparent;
-  font-size: clamp(14px, 2vw, 150px);;
-  margin-right: 12px; 
+  font-size: clamp(16px, 2vw, 150px);;
+  color: #4B3F34
 }
 
 .nav-tabs button:hover {

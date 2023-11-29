@@ -19,11 +19,11 @@ function Tab2Content() {
             </p>
             <p>
                 I would like to start by thanking you for taking the time to visit Gian&#39;s Woodworks.
-                The journey of building furniture started in 2018 and what began as hobby to pass
-                time rapidly became a passion. My love for woodworking goes beyond cutting
+                The journey of building furniture started in 2018 and what began as a hobby to pass
+                time, rapidly became a passion. My love for woodworking goes beyond cutting
                 and putting wood together. It is all about the details, especially those unseen. I’m
                 a true believer of building unique furniture, something that will fit your style and
-                space with the built quality of a timeless piece.
+                space with the build quality of a timeless piece.
             </p>
             <p>
                 Whether you are looking for a cutting board or a large statement piece, your

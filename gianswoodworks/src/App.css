@@ -52,8 +52,9 @@
     border: none;
     margin-left: 6px;
     margin-right: 6px;
-    font-size: clamp(14px, 2vw, 150px);
+    font-size: clamp(18px, 2vw, 150px);
     border-bottom: 2px solid transparent;
+    color: #4B3F34;
 }
 
 .cat-tabs button:hover {
@@ -67,7 +68,7 @@
 .subtab-titles {
     display: flex;
     justify-content: center;
-    font-size: clamp(20px, 4vw, 50px);
+    font-size: clamp(25px, 4vw, 50px);
     text-shadow: 2px 2px 2px #b49264;
     font-weight:500;
 }

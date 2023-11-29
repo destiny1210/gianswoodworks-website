@@ -169,7 +169,7 @@ import "./App.css";
                 </div>
                 <div className="col">
                     <div className="card h-100">
-                        <img src="/doors/door3.JPG" className="card-img-top" alt="..."/>
+                        <img src="/doors/door3.jpg" className="card-img-top" alt="..."/>
                         <div className="card-body">
                             <h1 className="card-title">14</h1>
                             {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
@@ -389,7 +389,7 @@ import "./App.css";
         <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src="living/living4.jpg" className="d-block w-100" alt="..."/>
+                    <img src="living/living4.JPG" className="d-block w-100" alt="..."/>
                 </div>
                 <div className="carousel-item">
                     <img src="living/living3.jpg" className="d-block w-100" alt="..."/>
